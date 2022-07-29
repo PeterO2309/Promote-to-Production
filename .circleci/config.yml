@@ -92,5 +92,5 @@ workflows:
       - clean_up_old_front_end:
           requires:
             - get_last_deployment_id
-            - promote_to_promotion
+            - promote_to_production
   
